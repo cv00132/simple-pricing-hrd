@@ -7,15 +7,17 @@
 }
 
 .container {
-  margin: 0 10%;
+  margin: 0 7.2%;
 }
 
-.ties {
-  margin: 0%;
+.center {
+  width: 50%;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 #free-shipping {
@@ -23,12 +25,44 @@ ul {
 }
 
 .top-bar {
-  color: #FAEAE5;
-  margin:auto;
+  background-color: #FA6938;
+  width: auto;
+  padding: .5% 0;
+
 }
 
-.top-bar li {
-  float: left;
-  padding: 1%;
+.top-bar span {
+  color: #FEF5F2;
+  text-align: left;
   background-color: #FA6938;
+  font-size: 75%;
+  padding-left: 2%;
+}
+
+nav {
+  border-image: url(./hard-mode/assets/perforated-bottom@2x.png);
+}
+
+nav li {
+  display: inline;
+}
+
+
+.ties {
+  padding: 0 7.5%;
+  background-color: #F4F4F4;
+}
+
+.ties li {
+  display: inline;
+  padding-left: 1.5%;
+}
+
+.ties img {
+  width: 8%;
+}
+
+#banner-text {
+  text-align: center;
+  font-weight: normal;
 }
