@@ -16,6 +16,12 @@ ul {
   margin: 0;
 }
 
+input {
+  border: 3px solid lightgrey;
+  border-style: double;
+  border-radius: 10%;
+}
+
 #free-shipping {
   background-color: #C7532C;
   margin-top: .5%;
@@ -24,17 +30,17 @@ ul {
 
 .top-bar {
   background-color: #FA6938;
-  padding: 0 8%;
+  padding: .6% 8%;
 }
 
 .top-bar span {
   color: #FEF5F2;
   text-align: left;
   background-color: #FA6938;
-  font-size: 79%;
-  padding: 0% 1.5%;
+  font-size: 11px;
+  padding: 0% 1%;
 }
-
+/*
 nav {
   border-image: url(./hard-mode/assets/perforated-bottom@2x.png);
   font-size: 197%;
@@ -43,35 +49,35 @@ nav {
 
 nav li {
   display: inline;
-}
+} */
 
 .actions {
-  font-size: 45%;
+  font-size: 8px;
   color: #878787;
-  float: right;
   display: inline-block;
+  text-align: right;
+  padding-right: 8%;
+  float: right;
+  width: 30%;
 }
 
 .actions input {
-  font-size: 100%;
+  font-size: 13px;
   float: right;
-}
-
-.actions p {
-  margin: 0 0% 13% 10%;
+  clear: both;
+  padding: 2px;
 }
 
 #search {
-  margin: 0% 86%;
-  padding: 5%;
+  clear: both;
 }
 
 #cart {
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
-  width: 10%;
-  margin: 0 72% 0 -25%;
+  width: 50px;
+  padding: 2%;
 }
 
 #cart:hover {
@@ -86,61 +92,74 @@ nav li {
 }
 
 .selection {
-  width: 61%;
-  padding-left: 12%;
+  width: 49%;
   float: left;
-  margin: 2% -66% 0% 7%;
+  margin: 1.4% -63% 0% 16%;
+  letter-spacing: -2px;
+  font-size: 197%;
 }
 
-.selection li a{
+.selection li{
   display: inline-block;
   padding: 0 1%;
   font-size: 75%;
-  margin: 0 -4% -40px 5%;
+  margin: -1% -4% -40px 3%;
   vertical-align: middle;
 }
 
 .content-background {
   background-color: #F4F4F4;
+  margin: 0;
 }
 
 .logo {
   width: 9.2%;
   margin-left: 5.7%;
-  margin-top: .8%;
+  margin-top: 0.8%;
   display: inline-block;
 }
 
 .ties {
-  padding: 0 16%;
+  padding: 0 8%;
   display: inline;
 }
 
 .ties li {
   display: inline;
-  padding-left: 1.5%;
+  padding-left: 1.9%;
 }
 
 .ties img {
-  width: 5.4%;
+  width: 63px;
+}
+
+.tie-name {
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding: 0 8%;
+}
+
+.tie-name li{
+  width: 63px;
+  display: inline;
+  padding-left: 1.9%;
 }
 
 #banner-text {
   text-align: center;
   font-weight: normal;
-  font-family: 'Signika Negative', sans-serif;
-  font-size: 357%;
-  padding-bottom: 5%;
+  font-size: 322%;
+  padding: 4% 11% 5% 0%;
+  letter-spacing: -2px;
 }
 
 .middle-blox {
-  padding: 0 8%;
-  margin: 0 auto;
+  margin: 0 0 1% 0;
   text-align: center;
 }
 
 .middle-blox img {
-  max-width: 270px;
+  max-width: 306px;
   border: 1px solid lightgrey;
   display: inline-block;
   text-align: center;
@@ -152,25 +171,32 @@ nav li {
 
 .middle-blox li {
   display: inline-block;
-  padding: 0 .5%;
   margin: 0 1%;
+}
 
+.middle-blox h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.middle-blox a {
+  color: blue;
 }
 
 #blox-text-1 {
   margin: 0;
   position: absolute;
   top: 7%;
-  left: 24%;
-  font-family: font-family: 'Signika', sans-serif;
-  font-weight: 700;
+  left: 27%;
 }
 
 #blox-text-2 {
   margin: 0;
   position: absolute;
   top: 7%;
-  left: 56%;
+  left: 55%;
   text-align: right;
 }
 
@@ -178,7 +204,7 @@ nav li {
   margin: 0;
   position: absolute;
   top: 7%;
-  left: 87%;
+  left: 83%;
 }
 
 .social {
@@ -210,17 +236,19 @@ nav li {
 
 .footer-links {
   padding-left: 8%;
-  width: 2%;
   clear: both;
+  font-size: 45%;
 }
 
 footer h4 {
   font-weight: 700;
 }
 
-footer ul li{
+footer ul{
   display: inline-block;
   float: left;
+  width: 50px;
+
 }
 
 .contact-box {
