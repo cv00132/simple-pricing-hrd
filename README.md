@@ -1,6 +1,6 @@
-Second Project -- w1d4
+##Second Project -- w1d4
 
-Image to HTML/CSS Weekend project
+#Image to HTML/CSS Weekend project
 (Normal -done & Hard -partially done)
 
 Assignment -Learning Objectives
